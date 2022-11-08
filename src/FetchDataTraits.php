@@ -4,18 +4,18 @@ namespace ProcessDrive\LaravelFetchData;
 
 trait FetchDataTraits {
 
-    public static function fetchableGet($array = [])
+    public static function fetchableGet()
     {
-        return $array ? get_class()::get($array) : get_class()::get();
+        return  self::$fetchable ? get_class()::get(self::$fetchable) : get_class()::get();
     }
 
-    public static function fetchableFirst($array = [])
+    public static function fetchableFirst()
     {
-        return $array ? get_class()::first($array) : get_class()::first();
+        return self::$fetchable ? get_class()::first(self::$fetchable) : get_class()::first();
     }
 
-    public static function fetchableAll($array = [])
+    public static function fetchableAll()
     {
-        return $array ? get_class()::all($array) : get_class()::all();
+        return self::$fetchable ? get_class()::all(self::$fetchable) : get_class()::all();
     }
 }
