@@ -1,0 +1,12 @@
+{
+    "name": "process-drive/laravel-fetch-data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ProcessDrive\\LaravelFetchData\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
