@@ -51,6 +51,12 @@ Note
 ================== 
 **static** keyword is must to include in your variable.
 
+Methods 
+================== 
+1. users::fetchableAll();
+2. users::fetchableGet();
+3. users::fetchableFirst();
+
 License
 =======
 MIT
