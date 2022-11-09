@@ -49,7 +49,7 @@ protected static $fetchable = ['username','email','password'];
 
 Note
 ================== 
-static keyword is must to include in your variable.
+**static** keyword is must to include in your variable.
 
 License
 =======
