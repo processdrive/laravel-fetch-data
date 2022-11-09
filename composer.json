@@ -7,6 +7,28 @@
             "ProcessDrive\\LaravelFetchData\\": "src/"
         }
     },
-    "minimum-stability": "dev ",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Venkatesan C",
+            "email": "venkatesangee@gmail.com",
+            "role": "Senior Developer"
+        },
+        {
+            "name": "David Antony S",
+            "email": "david@processdrive.com",
+            "role": "Senior Developer"
+        },
+        {
+            "name": "Kaviyarasan Shanmugam",
+            "email": "kaviyarasanshanmugam1999@gmail.com",
+            "role": "Software Developer"
+        },
+        {
+            "name": "Er.A Santhosh",
+            "email": "santhosh@processdrive.com",
+            "role": "Software Developer"
+        }
+    ],
     "require": {}
 }
