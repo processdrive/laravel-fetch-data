@@ -28,7 +28,8 @@ use ProcessDrive\LaravelFetchData\FetchDataTraits;
 Next add inside your model class 
 ```
 use FetchDataTraits;
-
+```
+```
 example :
 
 class users extends Model
